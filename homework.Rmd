@@ -12,8 +12,10 @@
 <br>
 
 -------
-### Homework \#1 
-<!-- ### [Homework \#1](homework/hw1.pdf) -->
+
+<!-- ### Homework \#1  -->
+### [Homework \#1](homework/hw1.pdf)
+> Due: Thur Sept 7
 
 
 
