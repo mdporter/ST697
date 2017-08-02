@@ -1,0 +1,137 @@
+<ul class="navibar">
+  <li><a href="./index.html" class="navibar" >Schedule</a></li>
+  <li><a href="./syllabus.html" class="current" >Syllabus</a></li>
+  <li><a href="./homework.html" class="navibar" >Homework</a></li>
+</ul>
+
+
+<!--- Table Formatting Modifications --->
+<style>
+.table {
+  width: 35%;
+  margin-left: 0%;
+  border: 1px solid lightgray;
+  font-size : 78%;
+}
+th {   
+  background-color: #dcdcdc;
+}
+td {
+  background-color: white;
+}
+</style>
+
+
+
+<!--- Start Main Page --->
+ <br><br>
+
+### Course Info
+
+Course Info               |   
+------------------------- | --------------- 
+**Class Time:**           | T,Th 3:30pm-4:45pm  
+**Class Location:**       | Bidgood 377    
+**Instructor:**     | Dr\. Michael D. Porter  
+**Office:**         | 348 Alston Hall
+**Email:**          | mporter {at} cba.ua.edu    
+**Office Hours:**   | Thur 10:15-11:15a (and by appt.)  
+
+<!---
+**TA:**                   |  TBD
+------------------------- | --------------- 
+**Office:**               | Bidgood Hall TBD
+**Email:**                | <font color="red"> TBD  {at} crimson.ua.edu </font>
+**Office Hours:**         | <font color="red"> TBD  (and by appt.)     </font>
+--->
+
+
+### Course Prerequisites:
+Students taking this course should have prior knowledge of graduate level regression (e.g., ST 552), statistical inference (e.g., ST 555), and linear algebra (e.g., MA 510). Students should also be proficient in a scientific programming language (e.g., R, Python, Matlab).  All course examples will be in R. 
+
+### Course Description:
+This course offers an in-depth analysis of select topics in statistical learning.
+Supervised methods may include: penalized regression and classification, model selection and validation, kernel methods, support vector machines, ensemble models, boosting, trees, neural networks, and graphical models. Unsupervised methods may include: association analysis, model-based and algorithmic clustering, non-parametric density estimation, networks, event and hotspot detection.   
+
+
+
+### Student Learning Objectives:
+Students will learn how and when to use statistical learning methods, understand their comparative strengths and weaknesses, and how to critically evaluate their performance. Students completing this course should be able to: (i) construct and apply novel statistical learning methods for predictive modeling, (ii) use unsupervised learning methods to find structure in data, (iii) incorporate appropriate techniques to detect patterns and anomalies in complex data, and (iv) properly select, tune, and assess models.
+
+
+
+
+
+### Required Textbooks:
+- *The Elements of Statistical Learning: Data Mining, Inference, and Prediction* (2nd Edition) by Hastie, Tibshirani, and Friedman. 
+
+An electronic version of this book is freely available at <http://www-stat.stanford.edu/~tibs/ElemStatLearn/>. We will only cover some parts of this text. Other course material will come from instructor notes and recent journal articles.
+
+
+
+### Other Course Materials:
+This course requires the use of statistical and typesetting software. Some options include:
+
+- R (<http://cran.us.r-project.org>) is a free command-line based statistical language
+- RStudio is a free IDE for R (<http://www.rstudio.com/ide>)
+- LaTeX is a free typesetting system for producing technical documents (e.g., journal articles and presentations). 
+
+
+
+### Course Assessment:
+The course grade will be based on several homework assignments (40%) and a final project (60%). 
+
+A: 90-100%, B: 80-89%, C: 70-79%, etc.
+
+
+### Course Outline: 
+
+- Supervised Learning
+    - Penalized Regression (e.g., Ridge, Lasso, elastic net)
+    - Nonparametric Methods (e.g., basis functions, kernel methods, GAM)
+    - Naive bayes
+    - Trees and random forest
+    - Ensembles and boosting
+    - Resampling (bootstrap, cross-validation, monte carlo)
+    - Variable Selection (filter, wrapper, embedded)
+
+- Unsupervised Learning
+    - Association Analysis
+    - Clustering (e.g., model-based, hierarchical)
+    - non-parametric density estimation
+    - network analytics and pagerank
+    - pattern and event detection
+
+
+
+----
+
+### Academic Calendar:
+Important dates for the semester can be found on the academic calendar: 
+<http://registrar.ua.edu/academiccalendar/>
+
+----
+
+### Severe Weather Guidelines:
+<http://uanews.ua.edu/weather>
+
+----
+
+### Disability Statement:
+If you are registered with the Office of Disability Services, please make an appointment with me as soon as possible to discuss any course accommodations that may be necessary.
+If you have a disability, but have not contacted the Office of Disability Services, please call (205) 348-4285 (Voice) or (205) 348-3081 (TTY) or visit 1000 Houser Hall to register for services. Students who may need course adaptations because of a disability are welcome to make an appointment to see me during office hours. Students with disabilities must be registered with the Office of Disability Services, 1000 Houser Hall, before receiving academic adjustments.
+
+
+----
+
+### Policy on Academic Misconduct:
+All students in attendance at The University of Alabama are expected to be honorable and to observe standards of conduct appropriate to a community of scholars. The University of Alabama expects from its students a higher standard of conduct than the minimum required to avoid discipline. At the beginning of each semester and on examinations and projects, the professor may require each student to sign the Academic Honor Pledge. 
+See the [Code of Student Conduct](http://policies.ua.edu/conduct.html) for more information.
+
+
+
+
+
+
+
+

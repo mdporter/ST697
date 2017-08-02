@@ -1,0 +1,21 @@
+<ul class="navibar">
+  <li><a href="./index.html" class="navibar">Schedule</a></li>
+  <li><a href="./syllabus.html" class="navibar" >Syllabus</a></li>
+  <li><a href="./homework.html" class="current" >Homework</a></li>
+</ul>
+
+
+
+
+<!--- Start Main Page --->
+<br>
+<br>
+
+-------
+### Homework \#1 
+<!-- ### [Homework \#1](homework/hw1.pdf) -->
+
+
+
+
+  

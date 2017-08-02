@@ -1,0 +1,282 @@
+
+<ul class="navibar">
+  <li><a href="./index.html" class="current" >Schedule</a></li>
+  <li><a href="./syllabus.html" class="navibar" >Syllabus</a></li>
+  <li><a href="./homework.html" class="navibar" >Homework</a></li>
+</ul>
+
+
+
+
+<!--- Start Main Page --->
+<br><br>
+
+### Schedule
+
+-----------
+
+<!--
+29 class meetings
+Add 1 day of HW review for each HW assignment
+
+(3)[1] Ch2
+(5)[5] Ch3
+(2)[3] Ch4a
+(2)[2] Ch7a
+-- (12) [11]
+
+(3)[2] Ch 5 and smoothing. maybe kernel smoothing? and GAM
+(4)[4] Classification and Density Estimation
+-- (7) [7]
+
+(2)[1] Ch8 - Bayesian
+  - connection to bootstrap
+  - bayesian density estimation (categorical counts)
+  - bayesian lasso, ridge, regression
+(2)[2] Ch8-9 Trees/RF
+(2)[2] Ch.10 Boosting
+-- (6) [5]
+
+(6)[5] Other
+only 4 classes after thanksgiving
+- (2) sepp (needs to follow poisson regression)
+    - derive likelihood, estimate parameters, EM algorithm
+    - show basic papers about estimation
+- (2-3) change point detection
+    - including fused lasso
+- (1) networks and pagerank
+
+(4) project discussion + 3 hw reviews
+
+-----
+(35 meetings. Need to cut 6!)
+
+-->
+
+
+------------------------------------------------------------------------------------------------
+Class Date      Day  Topic                      Reading (Pre-Class)     Notes from class
+----- -------- ----- -------------------------- ----------------------- -----------------------
+  1    Aug 24   Thu  Intro                       Chap 1
+
+  2    Aug 29   Tue  Supervised Learning          2.1-2.3                <!-- [R Code](R/02-suplearning.R) -->
+
+  3    Aug 31   Thu  Supervised Learning          2.4-2.6
+
+  4    Sept 5   Tue  Supervised Learning          2.7-2.9
+  
+  5    Sept 7   Thu  Conditional Probability      2.8, 2.9-2.10        
+
+
+  6    Sept 12  Tue    Linear Regression          3.1-3.2               <!-- [R Code](R/03-regression.R) -->
+  
+  7    Sept 14  Thu   Subset Selection            3.3                   <!-- [R Code](R/04-biasvariance.R) -->
+
+  8    Sept 19  Tue    Shrinkage Methods          3.4                   <!-- [R Code](R/05-Ridge.R) -->
+                      <!-- 
+                      (lectures/05-Ridge.pdf) 
+                      -->
+    
+  9    Sept 21  Thu   Lasso                       3.6                   <!-- [R Code](R/06-lasso.R) -->
+                     <!-- 
+                     (lectures/06-lasso.pdf) 
+                     -->
+
+  10   Sept 26  Tue  Algorithms                   3.8-3.9               <!-- [R Code](R/07-algorithms.R) -->
+  
+  11   Sept 28  Thu   Logistic Regression         4.1-4.2; 4.4
+   
+  12   Oct 3    Tue   GLM
+  
+  13   Oct 5    Thu   Model Assessment            7.1-7.3; 7.10
+
+  14   Oct 10   Tue   Model Assessment            7.4-7.7; 7.11         <!-- [R Code](R/08-crossval.R) -->
+                      <!-- 
+                      [Model Selection]
+                      -->                
+
+  15   Oct 12   Thu   Penalized B splines        5.1-5.2;               <!-- [R Code](R/09-bsplines.R)-->
+                                                 Eilers \& Marx
+                                                 <!--
+                                                 (homework/Bsplines
+                                                 .pdf)
+                                                 -->
+  
+
+  16   Oct 17   Tue   Generalize Additive       5.6, 9.1
+                      Models
+                      <!-- link -->
+  
+  17   Oct 19   Thu   Classification/Pattern
+                      Recognition
+
+  18   Oct 24   Tue   LDA                                               <!-- [R Code](R/11-density.R) -->
+  
+       Oct 26   Thu   <font color="orange">           
+                       *No Class: Fall Break* 
+                       </font>        
+  
+  19   Oct 31   Tue   Nonparametric Density     
+                      Estimation
+                      <!-- [Rmd](lectures/
+                      12-npdensity.Rmd)
+                      -->
+                                                 
+  20   Nov 2    Thu   Naive Bayes; 
+                      Kernel
+                      Smoothing
+  
+  21   Nov 7    Tue   Bayesian Estimation       8.1-8.4
+                      and Bootstrap
+  
+  22   Nov 9    Thu   Trees                     9.2, 8.7-8.9            <!-- [R Code](R/13-trees.R) -->
+                      <!-- [Trees] -->
+  
+
+  23   Nov 14   Tue  Ensembles \& Random        8.7-8.9, 15        
+                     Forests
+ 
+
+  24   Nov 16   Thu  Boosting                   10; LogitBoost paper    <!-- [R Code](R/14-boosting.R) -->
+  
+  25   Nov 21   Tue  Boosting
+
+       Nov 23   Thu  <font color="orange">           
+                       *No Class: Thanksgiving
+                       Break* 
+                       </font>        
+  
+
+  26   Nov 28   Tue  change point detection
+                     
+  27   Nov 30   Thu  change point detection                             <!-- [R Code](R/15-changedetect.R) -->
+  
+  28   Dec 5    Tue  networks and pagerank
+                      <!-- [link] -->
+  
+  29   Dec 7    Thu  
+  
+------------------------------------------------------------------------------------------------
+
+-----------
+
+
+
+<!-- 
+
+
+
+#### Supervised Learning
+
+------------------------------------------------------------------------------------------------
+Class Date      Day  Lecture                    Reading (Pre-Class)     Notes from class
+----- -------- ----- -------------------------- ----------------------- -----------------------
+  1    Aug 20   Thu   Intro
+
+  2    Aug 25   Tue   Supervised Learning       ESL 2                   [R Code](R/02-suplearning.R)
+
+  3    Aug 27   Thu   Linear Regression         ESL 3.1-3.2             [R Code](R/03-regression.R)
+  
+  4    Sept 1   Tue   Subset Selection          ESL 3.3                 [R Code](R/04-biasvariance.R)
+
+  5    Sept 3   Thu   [Shrinkage Methods](      ESL 3.4                 [R Code](R/05-Ridge.R)
+                      lectures/05-Ridge.pdf)      
+    
+  6    Sept 8   Tue  [Lasso](                   ESL 3.6                 [R Code](R/06-lasso.R)
+                     lectures/06-lasso.pdf)
+
+  7    Sept 10  Thu  Algorithms                 ESL 3.8-3.9             [R Code](R/07-algorithms.R)
+  
+  8    Sept 15  Tue  [Model Selection]          ESL 7 (esp. 7.10)       [R Code](R/08-crossval.R)
+                     
+  9    Sept 17  Thu  Classification             TBD
+  
+  10   Sept 22  Tue  **IACA Conference**,       ESL 4.4
+                     Logistic Regression
+                     
+  11   Sept 24  Thu  **IACA Conference**
+                     TBD
+  
+  12   Sept 29  Tue  Penalized B splines        [Eilers \& Marx](       [R Code](R/09-bsplines.R)
+                                                homework/Bsplines.pdf)
+                                                ; ESL 5.1-5.2
+  
+13     Oct 1    Thu  [Generalize Additive       ESL 5.6, 9.1
+                     Models]
+                     
+14     Oct 6    Tue  Evaluating Binary          ESL 6.6                
+                     Classifiers, Naive
+                     Bayes
+
+15     Oct 8    Thu  Parametric Density         ESL 4.3                 [R Code](R/11-density.R)
+                     Estimation, LDA
+
+16     Oct 13   Tue  [Nonparametric Density     ESL 6.1-6.5             [Rmd](lectures/12-npdensity.Rmd)
+                     Estimation], Kernel
+                     Smoothing
+
+17     Oct 15   Thu  HW Review
+
+18     Oct 20   Tue  Bayesian Estimation        ESL 8.1-8.4
+                     and Bootstrap
+
+19     Oct 22   Thu  [Trees](                   ESL 9.2, 8.7-8.9        [R Code](R/13-trees.R)
+                     lectures/13-trees.pdf)
+
+20     Oct 27   Tue  Ensembles \& Random        ESL 8.7-8.9, 15        
+                     Forests
+
+       Oct 29   Thu  <font color="orange">                                
+                     *No Class: Fall Break* 
+                     </font>  
+
+21     Nov 3    Tue  Boosting                   ESL 10; LogitBoost paper [R Code](R/14-boosting.R)
+
+22    Nov 5    Thu   Boosting  
+
+------------------------------------------------------------------------------------------------
+
+--------------------------------
+
+
+#### Unsupervised Learning
+
+------------------------------------------------------------------------------------------------
+Class Date      Day  Lecture                    Reading (Pre-Class)     Notes from class
+----- -------- ----- -------------------------- ----------------------- -----------------------                   
+23    Nov 10   Tue   Project discussions
+
+24    Nov 12   Thu   Self-exciting point 
+                     processes; HW review
+
+25    Nov 17   Tue   change detection (i)                               
+
+26    Nov 19   Thu   change detection (ii)                               [R Code](R/15-changedetect.R)
+
+27    Nov 24   Tue   [networks and pagerank]
+
+      Nov 26   Thu   <font color="orange">                                
+                     *No Class: Thanksgiving
+                     Break*  
+                     </font> 
+                    
+28    Dec 1    Tue   no-class: project prep                            
+ 
+29    Dec 3    Thu   project presentations                                            
+
+------------------------------------------------------------------------------------------------
+
+-------------------------------- 
+
+
+<p style="font-size:80%">
+ - **ESL**: Elements of Statistical Learning (2rd)
+</p>
+
+
+[Model Selection]: lectures/08-modelselection.pdf
+[Generalize Additive Models]: lectures/10-gam.pdf
+[Nonparametric Density Estimation]: lectures/12-npdensity.pdf
+[networks and pagerank]: lectures/16-networks.pdf
+
+-->

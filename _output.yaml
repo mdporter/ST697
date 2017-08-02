@@ -1,0 +1,10 @@
+html_document:
+  theme: cerulean
+  highlight: pygments
+  self_contained: true
+  lib_dir: libs
+  css: css/course.css
+  includes:
+    in_header: css/in_header.html
+    before_body: css/before_body.html
+    after_body: css/after_body.html

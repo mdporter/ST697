@@ -1,0 +1,72 @@
+
+
+/* 
+The RMarkdown Css is here: http://github.com/rstudio/markdown/blob/master/inst/resources/markdown.css */
+
+
+/* Basic Settings */
+
+h1 {
+    margin-bottom: 10px;
+}
+
+
+
+h2 {
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 0;
+    margin-top: 0;
+    font-size:1.6em;
+}
+
+
+/* Navigation Bar Settings */
+
+
+a:visited {
+    color: #2FA4E7;
+}
+
+
+.navibar {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navibar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navibar li {
+    float: left;
+}
+
+a.navibar:link, a.navibar:visited, .current { 
+    display: block;
+    width: 160px; 
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #2FA4E7;
+    text-align: center;
+    padding: 4px; 
+    text-decoration: none;
+}
+
+a.navibar:hover, a.navibar:active {
+  background-color: darkblue;  
+}
+
+
+.current {
+  background-color: darkblue; 
+}
+
+
+
+
+
