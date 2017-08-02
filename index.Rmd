@@ -65,26 +65,26 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
 
   4    Sept 5   Tue  Supervised Learning          2.7-2.9
   
-  5    Sept 7   Thu  Conditional Probability      2.8, 2.9-2.10        
+  5    Sept 7   Thu  Linear Regression            3.1-3.2                 **HW #1 Due** <!-- [R Code](R/03-regression.R) -->                          
 
-
-  6    Sept 12  Tue    Linear Regression          3.1-3.2               <!-- [R Code](R/03-regression.R) -->
+  6    Sept 12  Tue  Subset Selection            3.3                    <!-- [R Code](R/04-biasvariance.R) --> 
   
-  7    Sept 14  Thu   Subset Selection            3.3                   <!-- [R Code](R/04-biasvariance.R) -->
-
-  8    Sept 19  Tue    Shrinkage Methods          3.4                   <!-- [R Code](R/05-Ridge.R) -->
+  7    Sept 14  Thu   Shrinkage Methods          3.4                    <!-- [R Code](R/05-Ridge.R) -->
                       <!-- 
                       (lectures/05-Ridge.pdf) 
                       -->
-    
-  9    Sept 21  Thu   Lasso                       3.6                   <!-- [R Code](R/06-lasso.R) -->
+
+  8    Sept 19  Tue  Lasso                       3.6                    <!-- [R Code](R/06-lasso.R) -->
                      <!-- 
                      (lectures/06-lasso.pdf) 
-                     -->
+                     -->  
+    
+  9    Sept 21  Thu  Algorithms                   3.8-3.9               <!-- [R Code](R/07-algorithms.R) -->
+   
 
-  10   Sept 26  Tue  Algorithms                   3.8-3.9               <!-- [R Code](R/07-algorithms.R) -->
+  10   Sept 26  Tue                                                     <!-- **HW #2 Due** -->
   
-  11   Sept 28  Thu   Logistic Regression         4.1-4.2; 4.4
+  11   Sept 28  Thu   Logistic Regression         4.1-4.2; 4.4            <!-- **HW #2 Due** -->
    
   12   Oct 3    Tue   GLM
   
@@ -96,7 +96,7 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
                       -->                
 
   15   Oct 12   Thu   Penalized B splines        5.1-5.2;               <!-- [R Code](R/09-bsplines.R)-->
-                                                 Eilers \& Marx
+                                                 [Eilers \& Marx]
                                                  <!--
                                                  (homework/Bsplines
                                                  .pdf)
@@ -159,6 +159,8 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
 ------------------------------------------------------------------------------------------------
 
 -----------
+
+[Eilers \& Marx]: mdporter.github.io/ST697/other/(eilers-marx) Flexible smoothing.pdf
 
 
 
