@@ -67,6 +67,7 @@ Students will learn how and when to use statistical learning methods, understand
 
 An electronic version of this book is freely available at <http://www-stat.stanford.edu/~tibs/ElemStatLearn/>. We will only cover some parts of this text. Other course material will come from instructor notes and recent journal articles.
 
+If you are unfamilar with R, the (also free) textbook *An Introduction to Statistical Learning* by James, Witten, Hastie and Tibshirani (<http://www-bcf.usc.edu/~gareth/ISL/>) has labs that show the R code for many of the methods we will cover. This book is also good for a less technical description of common statistical learning methods. 
 
 
 ### Other Course Materials:
