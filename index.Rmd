@@ -57,7 +57,7 @@ only 4 classes after thanksgiving
 ------------------------------------------------------------------------------------------------
 Class Date      Day  Topic                      Reading (Pre-Class)     Notes from class
 ----- -------- ----- -------------------------- ----------------------- -----------------------
-  1    Aug 24   Thu  Intro                       Chap 1
+  1    Aug 24   Thu  Intro                       Chap 1                   [Streak Betting](https://mdporter.github.io/teaching/streak-betting/streak-betting.html)
 
   2    Aug 29   Tue  Supervised Learning          2.1-2.3                <!-- [R Code](R/02-suplearning.R) -->
 
