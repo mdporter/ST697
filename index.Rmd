@@ -65,7 +65,7 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
 
   4    Sept 5   Tue  Supervised Learning          2.7-2.9                02-bias-variance.pdf handout
   
-  5    Sept 7   Thu  Linear Regression            3.1-3.2                 **HW #1 Due** [R Formula Interface](other/rfmla.pdf)
+  5    Sept 7   Thu  Linear Regression            3.1-3.2                 **HW #1 Due** [R Formula Interface](other/03-rfmla.pdf)
 
   6    Sept 12  Tue  Subset Selection            3.3                      
   
