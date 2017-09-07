@@ -59,15 +59,15 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
 ----- -------- ----- -------------------------- ----------------------- -----------------------
   1    Aug 24   Thu  Intro                       Chap 1                   [Streak Betting](https://mdporter.github.io/teaching/streak-betting/streak-betting.html)
 
-  2    Aug 29   Tue  Supervised Learning          2.1-2.3                <!-- [R Code](R/02-suplearning.R) -->
+  2    Aug 29   Tue  Supervised Learning          2.1-2.3                02-supervised.pdf handout
 
   3    Aug 31   Thu  Supervised Learning          2.4-2.6
 
-  4    Sept 5   Tue  Supervised Learning          2.7-2.9
+  4    Sept 5   Tue  Supervised Learning          2.7-2.9                02-bias-variance.pdf handout
   
-  5    Sept 7   Thu  Linear Regression            3.1-3.2                 **HW #1 Due** <!-- [R Code](R/03-regression.R) -->                          
+  5    Sept 7   Thu  Linear Regression            3.1-3.2                 **HW #1 Due** [R Formula Interface](other/rfmla.pdf)
 
-  6    Sept 12  Tue  Subset Selection            3.3                    <!-- [R Code](R/04-biasvariance.R) --> 
+  6    Sept 12  Tue  Subset Selection            3.3                      
   
   7    Sept 14  Thu   Shrinkage Methods          3.4                    <!-- [R Code](R/05-Ridge.R) -->
                       <!-- 
