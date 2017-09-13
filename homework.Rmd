@@ -13,9 +13,13 @@
 
 -------
 
-<!-- ### Homework \#1  -->
+
 ### [Homework \#1](homework/hw1.pdf)
 > Due: Thur Sept 7
+
+
+### [Homework \#2](homework/hw2.pdf)
+> Due: Tues Sept 26
 
 
 
