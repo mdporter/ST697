@@ -156,7 +156,7 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
 
 [Eilers \& Marx]: mdporter.github.io/ST697/other/(eilers-marx) Flexible smoothing.pdf
 
-[Lasso]: (lectures/03-lasso.pdf)
+[Lasso]: lectures/03-lasso.pdf
 
 <!-- 
 
