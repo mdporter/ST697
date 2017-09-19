@@ -71,11 +71,8 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
   
   7    Sept 14  Thu   Shrinkage Methods          3.4                      [R Code: ridge](other/03-ridge.R)
 
-  8    Sept 19  Tue  Lasso                       3.6                    <!-- [R Code](R/06-lasso.R) -->
-                     <!-- 
-                     (lectures/06-lasso.pdf) 
-                     -->  
-    
+  8    Sept 19  Tue  [Lasso]                     3.6                      [R Code: lasso](other/03-lasso.R) 
+
   9    Sept 21  Thu  Algorithms                   3.8-3.9               <!-- [R Code](R/07-algorithms.R) -->
    
 
@@ -159,7 +156,7 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
 
 [Eilers \& Marx]: mdporter.github.io/ST697/other/(eilers-marx) Flexible smoothing.pdf
 
-
+[Lasso]: (lectures/03-lasso.pdf)
 
 <!-- 
 
