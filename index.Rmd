@@ -84,9 +84,9 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
    
   12   Oct 3    Tue   GLM                         [Rodriguez Notes]
   
-  13   Oct 5    Thu   [Model Assessment]          7.1-7.3; 7.10
+  13   Oct 5    Thu   Model Assessment            7.1-7.3; 7.10
 
-  14   Oct 10   Tue   Model Assessment            7.4-7.7; 7.11         <!-- [R Code](R/08-crossval.R) -->
+  14   Oct 10   Tue   [Model Assessment]          7.4-7.7; 7.11         <!-- [R Code](R/08-crossval.R) -->
                       <!-- 
                       [Model Selection]
                       -->                
@@ -158,7 +158,7 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
 
 [Lasso]: lectures/03-lasso.pdf
 
-[Eilers \& Marx]: mdporter.github.io/ST697/other/(eilers-marx) Flexible smoothing.pdf
+[Eilers \& Marx]: mdporter.github.io/ST697/other/(eilers-marx)%20Flexible%20smoothing.pdf
 
 [Rodriguez Notes]: http://data.princeton.edu/wws509/notes/a2.pdf
 
