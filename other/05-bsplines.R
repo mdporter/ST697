@@ -356,4 +356,54 @@ lines(tt,predict(m3,newdata=data.frame(x=tt)),col="red",lty=2)
 
 
 
+################################################################################
+#-- GAM Example
+################################################################################
 
+#-- Load Data
+url = "http://www.stat.cmu.edu/~larry/all-of-nonpar/=data/rock.dat"
+data = read.table(url,header=TRUE)
+X.train = data[,1:3]
+Y.train = log(data[,4])
+
+#X = X.train
+X = scale(X.train)
+Y = Y.train - mean(Y.train)
+Xnames = colnames(X)
+
+#-- OLS
+beta.ls = coef(lm(Y~X))
+
+#-- Ridge Regression (see ridge.R for details on setting lambda)
+library(MASS)
+beta.ridge = coef(lm.ridge(Y~X,lambda=12.3))
+
+#-- GAM
+library(mgcv)
+fmla = as.formula(Y~paste("s",Xnames))
+terms = paste(paste0("s(",Xnames,",sp=.001)"),collapse='+')
+fmla = as.formula(paste("Y~",terms))
+fit = gam(fmla,data=data.frame(Y,X))
+
+
+
+#-- Component Plots
+par(mfrow=c(3,1),mar=c(4,4.5,1,1),oma=c(0,0,2,0))
+for(j in 1:ncol(X)){
+  ord = order(X[,j])
+  xs = X[ord,j]
+  yhat.ls =  xs * beta.ls[j+1] #+ beta.ls[1] 
+  yhat.ridge = xs * beta.ridge[j+1] #+ beta.ridge[1]
+  yrng = c(-4,4)
+  plot(range(xs),yrng,typ='n',
+       xlab=paste(Xnames[j],"(scaled)"),ylab=bquote(f[.(j)]),las=1)
+  abline(h=0,col='grey85')
+  par(new=TRUE);plot(fit,select=j,ylim=yrng,yaxt='n',xaxt='n',xlab='',ylab='',
+                     shade=TRUE,lwd=2,col=1)  
+  points(xs,Y[ord])
+  lines(xs,yhat.ls,col=4,lwd=2)
+  #lines(xs,yhat.ridge,col=2,lwd=2)
+  # rug(xs)
+}
+legend(.5,29.5, legend=c("OLS","GAM"), col=c(4,1), lwd=2,lty=1, horiz=TRUE,
+       xpd=NA,bty='n',cex=1.25,xjust=.5)
