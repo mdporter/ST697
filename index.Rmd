@@ -102,19 +102,19 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
   17   Oct 19   Thu   Classification/Pattern                            **HW #3 Due**
                       Recognition
 
-  18   Oct 24   Tue   LDA                                               <!-- [R Code](R/11-density.R) -->
+  18   Oct 24   Tue   LDA                        4.3                     
   
        Oct 26   Thu   <font color="orange">           
                        *No Class: Fall Break* 
                        </font>        
   
-  19   Oct 31   Tue   Nonparametric Density     
+  19   Oct 31   Tue   Nonparametric Density      6.6-6.8                 <!-- [R Code](R/11-density.R) -->
                       Estimation
                       <!-- [Rmd](lectures/
                       12-npdensity.Rmd)
                       -->
                                                  
-  20   Nov 2    Thu   Naive Bayes; 
+  20   Nov 2    Thu   Naive Bayes;              6.1-6.5
                       Kernel
                       Smoothing
   
@@ -129,21 +129,20 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
                      Forests
  
 
-  24   Nov 16   Thu  Boosting                   10; LogitBoost paper    <!-- [R Code](R/14-boosting.R) -->
+  24   Nov 16   Thu  Boosting I                 10; LogitBoost paper    <!-- [R Code](R/14-boosting.R) -->
   
-  25   Nov 21   Tue  Boosting
+  25   Nov 21   Tue  Boosting II                16
 
        Nov 23   Thu  <font color="orange">           
                        *No Class: Thanksgiving
                        Break* 
                        </font>        
-  
 
-  26   Nov 28   Tue  change point detection
+  26   Nov 28   Tue  Anomaly detection I
                      
-  27   Nov 30   Thu  change point detection                             <!-- [R Code](R/15-changedetect.R) -->
+  27   Nov 30   Thu  Anomaly detection II                                <!-- [R Code](R/15-changedetect.R) -->
   
-  28   Dec 5    Tue  networks and pagerank
+  28   Dec 5    Tue  Networks and Pagerank
                       <!-- [link] -->
   
   29   Dec 7    Thu  
