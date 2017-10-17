@@ -91,13 +91,9 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
                       [Model Selection]
                       -->                
 
-  15   Oct 12   Thu   Penalized B splines        5.1-5.2;               <!-- [R Code](R/09-bsplines.R)-->
+  15   Oct 12   Thu   Penalized B splines        5.1-5.2;               [R Code: B-spline](other/05-bsplines.R)
                                                  [Eilers \& Marx]
-                                                 <!--
-                                                 (homework/Bsplines
-                                                 .pdf)
-                                                 -->
-  
+
 
   16   Oct 17   Tue   Generalize Additive       5.6, 9.1
                       Models
