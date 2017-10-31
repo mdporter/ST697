@@ -108,8 +108,8 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
                        *No Class: Fall Break* 
                        </font>        
   
-  19   Oct 31   Tue   Nonparametric Density      6.6-6.8                 <!-- [R Code](R/11-density.R) -->
-                      Estimation
+  19   Oct 31   Tue   [Nonparametric Density     6.6-6.8                <!-- [R Code](R/11-density.R) -->
+                      Estimation]
                       <!-- [Rmd](lectures/
                       12-npdensity.Rmd)
                       -->
@@ -158,6 +158,8 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
 [Rodriguez Notes]: http://data.princeton.edu/wws509/notes/a2.pdf
 
 [Model Assessment]: lectures/07-modelselection.pdf
+
+[Nonparametric Density Estimation]: lectures/npdensity.pdf 
 
 <!-- 
 
