@@ -24,7 +24,7 @@
 ### [Homework \#3](homework/hw3.pdf)
 > Due: Thur Oct 19
 
-
+  
 Data:
  
 - Problem 2
