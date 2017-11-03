@@ -24,6 +24,18 @@
 ### [Homework \#3](homework/hw3.pdf)
 > Due: Thur Oct 19
 
+
+Data:
+
+- Problem 2
+    - [$X$](data/hw3_2_X.csv), [$Y$](data/hw3_2_Y.csv), [$\beta$](data/hw3_2_beta.csv)
+
+
+- Problem 3
+    - [$X$](data/hw3_3_X.csv), [$Y$](data/hw3_3_Y.csv), [$\beta$](data/hw3_3_beta.csv), [$\alpha$, $\lambda$](data/hw3_3_settings.txt)
+
+
+
 ### [Homework \#4](homework/hw4.pdf)
 > Due: Tues Nov 7
 
