@@ -32,7 +32,7 @@ Data:
 
 
 - Problem 3
-    - [$X$](data/hw3_3_X.csv), [$Y$](data/hw3_3_Y.csv), [$\beta$](data/hw3_3_beta.csv), [$\alpha$, $\lambda$](data/hw3_3_settings.txt)
+    - [$X$](data/hw3_3_X.csv), [$Y$](data/hw3_3_Y.csv), [$\beta$](data/hw3_3_beta.csv), [$\alpha$, $\lambda$](data/hw3_3_settings.txt) 
 
 
 
