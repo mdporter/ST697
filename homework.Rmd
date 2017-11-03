@@ -26,7 +26,7 @@
 
 
 Data:
-
+ 
 - Problem 2
     - [$X$](data/hw3_2_X.csv), [$Y$](data/hw3_2_Y.csv), [$\beta$](data/hw3_2_beta.csv)
 
