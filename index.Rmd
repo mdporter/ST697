@@ -121,8 +121,8 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
   21   Nov 7    Tue   Bayesian Estimation       8.1-8.4                  **HW #4 Due**    
                       and Bootstrap
   
-  22   Nov 9    Thu   Trees                     9.2, 8.7-8.9            <!-- [R Code](R/13-trees.R) -->
-                      <!-- [Trees] -->
+  22   Nov 9    Thu   [Trees]                   9.2, 8.7-8.9            <!-- [R Code](R/13-trees.R) -->
+
   
 
   23   Nov 14   Tue  Ensembles \& Random        8.7-8.9, 15        
@@ -160,6 +160,8 @@ Class Date      Day  Topic                      Reading (Pre-Class)     Notes fr
 [Model Assessment]: lectures/07-modelselection.pdf
 
 [Nonparametric Density Estimation]: lectures/npdensity.pdf 
+
+[Trees]: lectures/trees.pdf
 
 <!-- 
 
